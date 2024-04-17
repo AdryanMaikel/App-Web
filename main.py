@@ -1,7 +1,7 @@
 """"""
 from flask import Flask, render_template
 
-APP = Flask()
+APP = Flask(__name__)
 
 
 @APP.route("/")
